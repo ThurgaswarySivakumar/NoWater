@@ -1,0 +1,126 @@
+/* Styling the Header */
+.header-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav a.active {
+    background-color: #555;
+}
+
+.btn-contact {
+    background-color: #ff6b81;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: #ff4757;
+}
+
+/* Main Container */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.page-title {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+/* Main Container */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.page-title {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+body {
+    color: blue;
+}
+
+/* Styling the Main Content */
+.main-content {
+    background-color: #f4f4f4;
+    padding: 50px;
+    min-height: 200px; /* Gives the middle section some height */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: green;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Styling the Footer */
+.footer-section {
+    background-color: #222;
+    color: #888;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
